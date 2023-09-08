@@ -1,9 +1,20 @@
 const express = require("express");
-const qr = require('qrcode');
-const pix = require("./pix")
+const qr = require("qrcode");
+const cors = require("cors");
+const pix = require("./pix");
 
 const app = express();
 app.use(express.json());
+
+const corsOptions = {
+    origin: '*',
+    methods: 'POST',
+    preflightContinue: false,
+    optionsSuccessStatus: 204,
+    allowedHeaders: 'Content-Type',
+};
+  
+app.use(cors(corsOptions));
 
 app.get("/", (req, res) => {
     res.send(`
