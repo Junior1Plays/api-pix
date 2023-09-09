@@ -42,7 +42,7 @@ app.post("/pix/copia-e-cola", (req, res) => {
     const receiver_city = body.beneficiario_cidade;
     const payment_description = body.pagamento_descricao;
     const payment_id = body.pagamento_identificador;
-    const payment_value = parseInt(body.pagamento_valor);
+    const payment_value = parseFloat(body.pagamento_valor);
   
     if(!receiver_key) return res.status(400).json({"erro": "falta chave do beneficiário"}).send();
     if(!receiver_name) return res.status(400).json({"erro": "falta nome do beneficiário"}).send();
@@ -65,8 +65,6 @@ app.post("/pix/qrcode", (req, res) => {
     const payment_description = body.pagamento_descricao;
     const payment_id = body.pagamento_identificador;
     const payment_value = parseFloat(body.pagamento_valor);
-
-    console.log(payment_value)
   
     if(!receiver_key) return res.status(400).json({"erro": "falta chave do beneficiário"}).send();
     if(!receiver_name) return res.status(400).json({"erro": "falta nome do beneficiário"}).send();
@@ -90,7 +88,7 @@ app.post("/pix/qrcode_copia-e-cola", (req, res) => {
     const receiver_city = body.beneficiario_cidade;
     const payment_description = body.pagamento_descricao;
     const payment_id = body.pagamento_identificador;
-    const payment_value = parseInt(body.pagamento_valor);
+    const payment_value = parseFloat(body.pagamento_valor);
   
     if(!receiver_key) return res.status(400).json({"erro": "falta chave do beneficiário"}).send();
     if(!receiver_name) return res.status(400).json({"erro": "falta nome do beneficiário"}).send();
