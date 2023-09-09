@@ -112,5 +112,6 @@ quando a api retornar um status 400, na resposta ela dirá o motivo do erro, por
 [JuniorSchueller](https://github.com/Junior1Plays/) : criar a api
 # botões
 
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/29623224-0a459086-a3ae-4fd8-8cb4-09b771aa1aa6?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D29623224-0a459086-a3ae-4fd8-8cb4-09b771aa1aa6%26entityType%3Dcollection%26workspaceId%3D27d3cd4e-a310-4045-94d7-3bcf52c944fd)<br>
 [![fork](https://img.shields.io/badge/Fork%20this%20repository-37a779)](https://github.com/Junior1Plays/api-pix/fork)<br>
-[![fork](https://img.shields.io/badge/Add%20a%20star%20to%20this%20repository-37a779)](https://github.com/Junior1Plays/api-pix/)
+[![star](https://img.shields.io/badge/Add%20a%20star%20to%20this%20repository-37a779)](https://github.com/Junior1Plays/api-pix/)
