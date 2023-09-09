@@ -7,28 +7,22 @@ api-pix é uma api que cria código qr e copia e cola de pagamento Pix.
 # parametros
 os parametros de todas as rotas são os mesmos:
 ## beneficiario_chave
-descrição: deve conter a chave pix do beneficiário
-
+descrição: deve conter a chave pix do beneficiário<br>
 obrigatório: sim
 ## beneficiario_nome
-descrição: deve conter a o nome do beneficiário
-
+descrição: deve conter a o nome do beneficiário<br>
 obrigatório: sim
 ## beneficiario_cidade
-descrição: deve conter a cidade do beneficiário
-
+descrição: deve conter a cidade do beneficiário<br>
 obrigatório: sim
 ## pagamento_descricao
-descrição: deve conter a descrição/motivo do pagamento
-
+descrição: deve conter a descrição/motivo do pagamento<br>
 obrigatório: sim
 ## pagamento_identificador
-descrição: deve conter o identificador do pagamento (não pode conter espaços, ex: COBRANÇA-01)
-
+descrição: deve conter o identificador do pagamento (não pode conter espaços, ex: COBRANÇA-01)<br>
 obrigatório: sim
 ## pagamento_valor
-descrição: deve conter o valor do pagamento
-
+descrição: deve conter o valor do pagamento<br>
 obrigatório: sim
 
 # solicitação
@@ -114,7 +108,7 @@ quando a api retornar um status 400, na resposta ela dirá o motivo do erro, por
 }
 ```
 # créditos
-[gab618/pix-js](https://github.com/gab618/pix-js/) : criar o pix.js
+[gab618/pix-js](https://github.com/gab618/pix-js/) : criar o pix.js<br>
 [JuniorSchueller](https://github.com/Junior1Plays/) : criar a api
 # botões
 
